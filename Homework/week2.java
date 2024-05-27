@@ -72,17 +72,17 @@ public class week2 {
          */
 
         Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter your name");
-        // String name = sc.next();
-        // System.out.println("Enter your roll number:");
-        // int roll_num = sc.nextInt();
-        // System.out.println("What are the yopic of your interest");
-        // String interest1 = sc.next();
-        // String interest2 = sc.next();
-        // String interest3 = sc.next();
-        // System.out.println("Hey, my name is " + name + " and my roll number is " +
-        // roll_num
-        // + ". My field of interest are " + interest1 + interest2 + interest3);
+        System.out.println("Enter your name");
+        String name = sc.next();
+        System.out.println("Enter your roll number:");
+        int roll_num = sc.nextInt();
+        System.out.println("What are the yopic of your interest");
+        String interest1 = sc.next();
+        String interest2 = sc.next();
+        String interest3 = sc.next();
+        System.out.println("Hey, my name is " + name + " and my roll number is " +
+                roll_num
+                + ". My field of interest are " + interest1 + interest2 + interest3);
 
         /*
          * 8. Take side of a square from user and print area and perimeter of it. Also,
@@ -90,30 +90,30 @@ public class week2 {
          * Take the attributes as user input.
          * 
          */
-        // System.out.println("Enter all four side of a rectangle:");
-        // System.out.print("Side 1 :");
-        // int Side1 = sc.nextInt();
-        // System.out.print("Side 2: ");
-        // int Side2 = sc.nextInt();
-        // System.out.print("Side 3: ");
-        // int Side3 = sc.nextInt();
-        // System.out.print("Side 4: ");
-        // int Side4 = sc.nextInt();
-        // int perimeter = Side1 + Side2 + Side3 + Side4;
-        // System.out.println("The perimeter of rectange is: " + perimeter);
+        System.out.println("Enter all four side of a rectangle:");
+        System.out.print("Side 1 :");
+        int Side1 = sc.nextInt();
+        System.out.print("Side 2: ");
+        int Side2 = sc.nextInt();
+        System.out.print("Side 3: ");
+        int Side3 = sc.nextInt();
+        System.out.print("Side 4: ");
+        int Side4 = sc.nextInt();
+        int perimeter = Side1 + Side2 + Side3 + Side4;
+        System.out.println("The perimeter of rectange is: " + perimeter);
 
         /*
          * Ask user to give two double input for length and breadth of a rectangle and
          * print area type casted to int.
          */
 
-        // System.out.print("Enter length: ");
-        // double length = sc.nextDouble();
-        // System.out.print("Enter breadth: ");
-        // double breadth = sc.nextDouble();
-        // double Area = length * breadth;
-        // int intarea = (int) Area;
-        // System.out.println("The are of rectangle is: " + intarea);
+        System.out.print("Enter length: ");
+        double length = sc.nextDouble();
+        System.out.print("Enter breadth: ");
+        double breadth = sc.nextDouble();
+        double Area = length * breadth;
+        int intarea = (int) Area;
+        System.out.println("The are of rectangle is: " + intarea);
 
         /*
          * Write a program to calculate the total marks of four subjects of a student
@@ -150,6 +150,7 @@ public class week2 {
                         : (percentage > 49) ? "Second class" : (percentage > 39) ? "Third class" : "Fail";
 
         System.out.println(test);
+        sc.close();
 
     }
 
